@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const farmImages = [
-  { id: 1, src: "/images/farm-1.webp", alt: "Farm image 1" },
+  { id: 1, src: "/images/farm-12.webp", alt: "Farm image 1" },
   { id: 2, src: "/images/farm-2.webp", alt: "Farm image 2" },
   { id: 3, src: "/images/farm-3.webp", alt: "Farm image 3" },
   { id: 4, src: "/images/farm-4.webp", alt: "Farm image 4" },
@@ -16,7 +16,7 @@ const farmImages = [
   { id: 9, src: "/images/farm-9.webp", alt: "Farm image 9" },
   { id: 10, src: "/images/farm-10.webp", alt: "Farm image 10" },
   { id: 11, src: "/images/farm-11.webp", alt: "Farm image 11" },
-  { id: 12, src: "/images/farm-12.webp", alt: "Farm image 12" },
+  { id: 12, src: "/images/farm-1.webp", alt: "Farm image 12" },
 ];
 
 export default function Gallery() {
