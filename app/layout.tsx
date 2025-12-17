@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   title: "Pumori Coffee | Premium Specialty Coffee",
   description:
     "Experience the finest specialty coffee from the foothills of the Himalayas. Pumori Coffee delivers exceptional quality and taste.",
+  icons: {
+    icon: "/pumori-logo.png",
+  },
 };
 
 export default function RootLayout({
