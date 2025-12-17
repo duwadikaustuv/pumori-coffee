@@ -35,7 +35,7 @@ export default function About() {
               {/* Main image container */}
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-200 dark:bg-neutral-800 lg:aspect-[3/4]">
                 <Image
-                  src="/images/farm-2.JPG"
+                  src="/images/farm-2.webp"
                   alt="Pumori Coffee farm in the highlands"
                   fill
                   className="object-cover"
@@ -77,14 +77,14 @@ export default function About() {
             className="order-1 lg:order-2"
           >
             {/* Eyebrow */}
-            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-olive dark:text-brand-olive-light">
+            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
               Our Story
             </p>
 
             {/* Heading */}
             <h2 className="mb-6 font-display text-3xl font-medium leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
               Where Mountains Meet{" "}
-              <span className="italic text-brand-olive dark:text-brand-olive-light">
+              <span className="italic text-brand-brown dark:text-brand-brown-light">
                 Mastery
               </span>
             </h2>
@@ -92,15 +92,15 @@ export default function About() {
             {/* Body text */}
             <div className="space-y-4 font-sans text-base leading-relaxed text-neutral-600 dark:text-neutral-400 sm:text-lg">
               <p>
-                Nestled in the misty highlands where ancient traditions blend
+                Nestled in the misty highlands of Nepal where ancient traditions blend
                 with pristine nature, Pumori Coffee was born from a passion for
-                excellence and a deep respect for the land.
+                agriculture and a deep respect for the land.
               </p>
               <p>
-                For over two decades, we've worked closely with local farmers,
+                For over a decade, we've worked closely with local farmers,
                 ensuring every bean is cultivated with care, harvested at peak
                 ripeness, and roasted to perfection. Our commitment goes beyond
-                just great coffee — it's about preserving heritage, supporting
+                just great coffee, it's about preserving heritage, supporting
                 communities, and honoring the earth.
               </p>
               <p>
@@ -112,7 +112,7 @@ export default function About() {
 
             {/* Feature tags */}
             <div className="mt-8 flex flex-wrap gap-3">
-              {["Ethically Sourced", "Hand Roasted", "Single Origin"].map(
+              {["Ethically Sourced", "Organic", "Single Origin"].map(
                 (tag) => (
                   <span
                     key={tag}
@@ -137,14 +137,14 @@ export default function About() {
             className="order-1"
           >
             {/* Eyebrow */}
-            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-olive dark:text-brand-olive-light">
+            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
               Our Process
             </p>
 
             {/* Heading */}
             <h2 className="mb-6 font-display text-3xl font-medium leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
               From Seed to{" "}
-              <span className="italic text-brand-olive dark:text-brand-olive-light">
+              <span className="italic text-brand-brown dark:text-brand-brown-light">
                 Sip
               </span>
             </h2>
@@ -152,8 +152,8 @@ export default function About() {
             {/* Body text */}
             <div className="space-y-4 font-sans text-base leading-relaxed text-neutral-600 dark:text-neutral-400 sm:text-lg">
               <p>
-                Our coffee begins its journey at high altitudes where cool
-                temperatures and rich volcanic soil create the perfect
+                Our coffee begins its journey at high altitudes at 1200m where cool
+                temperatures and fertile soil create the perfect
                 conditions for exceptional beans. Each cherry is handpicked at
                 peak ripeness, ensuring only the finest make it to your cup.
               </p>
@@ -168,27 +168,11 @@ export default function About() {
             {/* Stats */}
             <div className="mt-8 grid grid-cols-3 gap-6">
               <div>
-                <p className="font-display text-2xl font-bold text-brand-olive dark:text-brand-olive-light sm:text-3xl">
-                  1600m+
+                <p className="font-display text-2xl font-bold text-brand-brown dark:text-brand-brown-light sm:text-3xl">
+                  1200m+
                 </p>
                 <p className="mt-1 font-sans text-xs font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-500">
                   Altitude
-                </p>
-              </div>
-              <div>
-                <p className="font-display text-2xl font-bold text-brand-olive dark:text-brand-olive-light sm:text-3xl">
-                  100%
-                </p>
-                <p className="mt-1 font-sans text-xs font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-500">
-                  Organic
-                </p>
-              </div>
-              <div>
-                <p className="font-display text-2xl font-bold text-brand-olive dark:text-brand-olive-light sm:text-3xl">
-                  24h
-                </p>
-                <p className="mt-1 font-sans text-xs font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-500">
-                  Roasting
                 </p>
               </div>
             </div>
@@ -206,7 +190,7 @@ export default function About() {
               {/* Main image container */}
               <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-neutral-200 dark:bg-neutral-800 lg:aspect-[3/4]">
                 <Image
-                  src="/images/farm-5.JPG"
+                  src="/images/farm-8.webp"
                   alt="Coffee processing and roasting"
                   fill
                   className="object-cover"

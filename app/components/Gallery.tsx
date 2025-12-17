@@ -5,17 +5,17 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const farmImages = [
-  { id: 1, src: "/images/farm-1.JPG", alt: "Farm image 1" },
-  { id: 2, src: "/images/farm-2.JPG", alt: "Farm image 2" },
-  { id: 3, src: "/images/farm-3.JPG", alt: "Farm image 3" },
-  { id: 4, src: "/images/farm-4.JPG", alt: "Farm image 4" },
-  { id: 5, src: "/images/farm-5.JPG", alt: "Farm image 5" },
-  { id: 6, src: "/images/farm-6.JPG", alt: "Farm image 6" },
-  { id: 7, src: "/images/farm-7.JPG", alt: "Farm image 7" },
-  { id: 8, src: "/images/farm-8.JPG", alt: "Farm image 8" },
-  { id: 9, src: "/images/farm-9.JPG", alt: "Farm image 9" },
-  { id: 10, src: "/images/farm-10.JPG", alt: "Farm image 10" },
-  { id: 11, src: "/images/farm-11.JPG", alt: "Farm image 11" },
+  { id: 1, src: "/images/farm-1.webp", alt: "Farm image 1" },
+  { id: 2, src: "/images/farm-2.webp", alt: "Farm image 2" },
+  { id: 3, src: "/images/farm-3.webp", alt: "Farm image 3" },
+  { id: 4, src: "/images/farm-4.webp", alt: "Farm image 4" },
+  { id: 5, src: "/images/farm-5.webp", alt: "Farm image 5" },
+  { id: 6, src: "/images/farm-6.webp", alt: "Farm image 6" },
+  { id: 7, src: "/images/farm-7.webp", alt: "Farm image 7" },
+  { id: 8, src: "/images/farm-8.webp", alt: "Farm image 8" },
+  { id: 9, src: "/images/farm-9.webp", alt: "Farm image 9" },
+  { id: 10, src: "/images/farm-10.webp", alt: "Farm image 10" },
+  { id: 11, src: "/images/farm-11.webp", alt: "Farm image 11" },
 ];
 
 export default function Gallery() {
@@ -70,7 +70,7 @@ export default function Gallery() {
           transition={{ duration: 0.6 }}
           className="mx-auto mb-12 max-w-3xl text-center md:mb-16 lg:mb-20"
         >
-          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-olive dark:text-brand-olive-light">
+          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Behind the Beans
           </p>
           <h2 className="mb-6 font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
@@ -179,7 +179,7 @@ export default function Gallery() {
                 <span
                   className={`block h-2 rounded-full transition-all duration-300 ${
                     index === currentIndex
-                      ? "w-8 bg-brand-olive dark:bg-brand-olive-light"
+                      ? "w-8 bg-brand-brown dark:bg-brand-brown-light"
                       : "w-2 bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600"
                   }`}
                 />

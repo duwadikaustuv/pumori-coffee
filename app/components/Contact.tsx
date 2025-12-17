@@ -28,7 +28,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           className="mb-12 text-center md:mb-16 lg:mb-20"
         >
-          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-olive dark:text-brand-olive-light">
+          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Visit Us
           </p>
           <h2 className="mb-6 font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
@@ -53,7 +53,7 @@ export default function Contact() {
           >
             {/* Location */}
             <div className="group">
-              <div className="mb-4 inline-flex rounded-full bg-brand-olive/10 p-3 text-brand-olive transition-colors group-hover:bg-brand-olive/20 dark:bg-brand-olive/20 dark:text-brand-olive-light dark:group-hover:bg-brand-olive/30">
+              <div className="mb-4 inline-flex rounded-full bg-brand-brown/10 p-3 text-brand-brown transition-colors group-hover:bg-brand-brown/20 dark:bg-brand-brown/20 dark:text-brand-brown-light dark:group-hover:bg-brand-brown/30">
                 <svg
                   className="h-6 w-6"
                   fill="none"
@@ -85,7 +85,7 @@ export default function Contact() {
 
             {/* Email */}
             <div className="group">
-              <div className="mb-4 inline-flex rounded-full bg-brand-olive/10 p-3 text-brand-olive transition-colors group-hover:bg-brand-olive/20 dark:bg-brand-olive/20 dark:text-brand-olive-light dark:group-hover:bg-brand-olive/30">
+              <div className="mb-4 inline-flex rounded-full bg-brand-brown/10 p-3 text-brand-brown transition-colors group-hover:bg-brand-brown/20 dark:bg-brand-brown/20 dark:text-brand-brown-light dark:group-hover:bg-brand-brown/30">
                 <svg
                   className="h-6 w-6"
                   fill="none"
@@ -105,59 +105,13 @@ export default function Contact() {
               </h3>
               <a
                 href="mailto:info@pumoricoffee.com"
-                className="font-sans text-base text-neutral-600 transition-colors hover:text-brand-olive dark:text-neutral-400 dark:hover:text-brand-olive-light"
+                className="font-sans text-base text-neutral-600 transition-colors hover:text-brand-brown dark:text-neutral-400 dark:hover:text-brand-brown-light"
               >
-                info@pumoricoffee.com
+                pumoricoffeenepal@gmail.com
               </a>
             </div>
 
-            {/* Phone */}
-            <div className="group">
-              <div className="mb-4 inline-flex rounded-full bg-brand-olive/10 p-3 text-brand-olive transition-colors group-hover:bg-brand-olive/20 dark:bg-brand-olive/20 dark:text-brand-olive-light dark:group-hover:bg-brand-olive/30">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
-                  />
-                </svg>
-              </div>
-              <h3 className="mb-2 font-display text-xl font-medium text-neutral-900 dark:text-neutral-100">
-                Phone
-              </h3>
-              <a
-                href="tel:+977-1-234567"
-                className="font-sans text-base text-neutral-600 transition-colors hover:text-brand-olive dark:text-neutral-400 dark:hover:text-brand-olive-light"
-              >
-                +977-1-234567
-              </a>
-            </div>
-
-            {/* Visiting Hours */}
-            <div className="group">
-              <div className="mb-4 inline-flex rounded-full bg-brand-olive/10 p-3 text-brand-olive transition-colors group-hover:bg-brand-olive/20 dark:bg-brand-olive/20 dark:text-brand-olive-light dark:group-hover:bg-brand-olive/30">
-                <svg
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={1.5}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-                  />
-                </svg>
-              </div>
-              
-            </div>
+            
           </motion.div>
 
           {/* Google Map */}
@@ -172,7 +126,7 @@ export default function Contact() {
               {/* Map container with aspect ratio */}
               <div className="relative aspect-[4/3] w-full lg:aspect-square">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113086.13619179034!2d85.58973604863281!3d27.959156299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb09bb36e515db%3A0x7eee7ab66e85beff!2sSindhupalchok%20District!5e0!3m2!1sen!2snp!4v1702464000000!5m2!1sen!2snp"
+                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d56428.93613657193!2d85.82959216613129!3d27.877152116937808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbhote%20koshi%20corridor!5e0!3m2!1sen!2snp!4v1765984734772!5m2!1sen!2snp"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

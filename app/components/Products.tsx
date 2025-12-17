@@ -7,22 +7,22 @@ import { motion } from "framer-motion";
 const products = [
   {
     id: 1,
-    src: "/images/product-1.JPG",
+    src: "/images/product-1.webp",
     alt: "Premium Coffee Product 1",
   },
   {
     id: 2,
-    src: "/images/product-2.JPG",
+    src: "/images/product-2.webp",
     alt: "Premium Coffee Product 2",
   },
   {
     id: 3,
-    src: "/images/product-3.JPG",
+    src: "/images/product-3.webp",
     alt: "Premium Coffee Product 3",
   },
   {
     id: 4,
-    src: "/images/product-4.JPG",
+    src: "/images/product-4.webp",
     alt: "Premium Coffee Product 4",
   },
 ];
@@ -52,7 +52,7 @@ export default function Products() {
           transition={{ duration: 0.6 }}
           className="mb-12 text-center md:mb-16 lg:mb-20"
         >
-          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-olive dark:text-brand-olive-light">
+          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Our Collection
           </p>
           <h2 className="font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
@@ -86,7 +86,7 @@ export default function Products() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/0 to-black/0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
 
                 {/* Subtle border glow on hover */}
-                <div className="absolute inset-0 rounded-2xl ring-2 ring-brand-olive/0 ring-offset-0 transition-all duration-500 group-hover:ring-brand-olive/30 dark:group-hover:ring-brand-olive-light/30" />
+                <div className="absolute inset-0 rounded-2xl ring-2 ring-brand-brown/0 ring-offset-0 transition-all duration-500 group-hover:ring-brand-brown/30 dark:group-hover:ring-brand-brown-light/30" />
               </div>
 
               {/* Decorative corner accent */}

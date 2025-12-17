@@ -8,9 +8,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about", label: "About" },
-  { href: "#products", label: "Products" },
   { href: "#gallery", label: "Gallery" },
+  { href: "#products", label: "Products" },
+  { href: "#about", label: "About" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -61,8 +61,8 @@ export default function Navbar() {
 
   const logoSrc =
     mounted && resolvedTheme === "dark"
-      ? "/pumori_logo.png"
-      : "/pumori_logo_light.png";
+      ? "/pumori-logo.png"
+      : "/pumori-logo.png";
 
   return (
     <>
@@ -70,20 +70,16 @@ export default function Navbar() {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
-            ? "bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-sm"
-            : "bg-transparent"
-        }`}
+        className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-black/95 backdrop-blur-md shadow-sm transition-all duration-300"
       >
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between md:h-20">
+          <div className="flex h-20 items-center justify-between md:h-24">
             {/* Logo */}
             <Link
               href="#home"
-              className="relative z-10 flex-shrink-0 transition-opacity hover:opacity-80"
+              className="relative z-10 flex items-center flex-shrink-0 transition-opacity hover:opacity-80"
             >
-              <div className="relative h-10 w-32 md:h-12 md:w-40">
+              <div className="relative h-14 w-32 md:h-16 md:w-40 lg:h-20 lg:w-48">
                 {mounted ? (
                   <Image
                     src={logoSrc}
@@ -97,6 +93,9 @@ export default function Navbar() {
                   <div className="h-full w-full" />
                 )}
               </div>
+              <span className="font-display text-base md:text-lg lg:text-2xl font-bold tracking-tight text-brand-brown dark:text-brand-beige whitespace-nowrap -ml-4 md:-ml-6 lg:-ml-8">
+                PUMORI COFFEE
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
