@@ -126,7 +126,7 @@ export default function Contact() {
               {/* Map container with aspect ratio */}
               <div className="relative aspect-[4/3] w-full lg:aspect-square">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d56428.93613657193!2d85.82959216613129!3d27.877152116937808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbhote%20koshi%20corridor!5e0!3m2!1sen!2snp!4v1765984734772!5m2!1sen!2snp"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d16778.39175866476!2d85.87642775685396!3d27.864438677064943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1765991804299!5m2!1sen!2snp"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
