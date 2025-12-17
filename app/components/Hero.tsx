@@ -90,9 +90,10 @@ export default function Hero() {
             {/* Main headline */}
             <motion.h1
               variants={itemVariants}
-              className="font-display text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
+              className="text-2xl font-extrabold leading-tight tracking-tight text-white sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl"
+              style={{ fontFamily: 'var(--font-noto-sans)' }}
             >
-              HIMALAYAN 100% ORGANIC
+              HIMALAYAN ORGANIC
               <br />
               <span className="text-brand-brown">ARABICA COFFEE</span>
             </motion.h1>
@@ -112,7 +113,7 @@ export default function Hero() {
             >
               <span className="h-px w-12 bg-brand-beige/60" />
               <span className="font-sans text-xs font-medium uppercase tracking-[0.15em] text-brand-beige">
-                Single Origin • Hand Roasted • Ethically Sourced
+                Single Origin • Organic • Ethically Sourced
               </span>
               <span className="h-px w-12 bg-brand-beige/60" />
             </motion.div>

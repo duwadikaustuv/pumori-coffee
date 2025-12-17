@@ -12,17 +12,17 @@ const products = [
   },
   {
     id: 2,
-    src: "/images/product-2.webp",
+    src: "/images/product-3.webp",
     alt: "Premium Coffee Product 2",
   },
   {
     id: 3,
-    src: "/images/product-3.webp",
+    src: "/images/product-8.webp",
     alt: "Premium Coffee Product 3",
   },
   {
     id: 4,
-    src: "/images/product-4.webp",
+    src: "/images/product-11.webp",
     alt: "Premium Coffee Product 4",
   },
 ];
@@ -55,7 +55,7 @@ export default function Products() {
           <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Our Collection
           </p>
-          <h2 className="font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl" style={{ fontFamily: 'var(--font-noto-sans)' }}>
             Crafted with Care
           </h2>
         </motion.div>

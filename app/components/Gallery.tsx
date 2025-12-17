@@ -16,6 +16,7 @@ const farmImages = [
   { id: 9, src: "/images/farm-9.webp", alt: "Farm image 9" },
   { id: 10, src: "/images/farm-10.webp", alt: "Farm image 10" },
   { id: 11, src: "/images/farm-11.webp", alt: "Farm image 11" },
+  { id: 12, src: "/images/farm-12.webp", alt: "Farm image 12" },
 ];
 
 export default function Gallery() {
@@ -73,7 +74,7 @@ export default function Gallery() {
           <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Behind the Beans
           </p>
-          <h2 className="mb-6 font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
+          <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl" style={{ fontFamily: 'var(--font-noto-sans)' }}>
             Gallery
           </h2>
           <p className="font-sans text-base leading-relaxed text-neutral-600 dark:text-neutral-400 sm:text-lg">

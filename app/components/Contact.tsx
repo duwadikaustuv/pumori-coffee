@@ -31,7 +31,7 @@ export default function Contact() {
           <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-brand-brown dark:text-brand-brown-light">
             Visit Us
           </p>
-          <h2 className="mb-6 font-display text-3xl font-medium tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
+          <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl" style={{ fontFamily: 'var(--font-noto-sans)' }}>
             Get in Touch
           </h2>
           <p className="mx-auto max-w-2xl font-sans text-base leading-relaxed text-neutral-600 dark:text-neutral-400 sm:text-lg">

@@ -73,13 +73,13 @@ export default function Navbar() {
         className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-black/95 backdrop-blur-md shadow-sm transition-all duration-300"
       >
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-20 items-center justify-between md:h-24">
+          <div className="flex h-20 items-center justify-between md:h-24 lg:h-32">
             {/* Logo */}
             <Link
               href="#home"
               className="relative z-10 flex items-center flex-shrink-0 transition-opacity hover:opacity-80"
             >
-              <div className="relative h-14 w-32 md:h-16 md:w-40 lg:h-20 lg:w-48">
+              <div className="relative h-14 w-32 md:h-16 md:w-40 lg:h-32 lg:w-80">
                 {mounted ? (
                   <Image
                     src={logoSrc}
@@ -93,7 +93,7 @@ export default function Navbar() {
                   <div className="h-full w-full" />
                 )}
               </div>
-              <span className="font-display text-base md:text-lg lg:text-2xl font-bold tracking-tight text-brand-brown dark:text-brand-beige whitespace-nowrap -ml-4 md:-ml-6 lg:-ml-8">
+              <span className="text-base md:text-lg lg:text-4xl font-extrabold tracking-tight text-brand-brown dark:text-brand-beige whitespace-nowrap -ml-4 md:-ml-6 lg:-ml-12" style={{ fontFamily: 'var(--font-noto-sans)' }}>
                 PUMORI COFFEE
               </span>
             </Link>

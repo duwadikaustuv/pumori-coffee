@@ -12,6 +12,7 @@
   /* Fonts */
   --font-display: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
+  --font-noto-sans: "Noto Sans", sans-serif;
 }
 
 /* Dark mode uses system preference via Tailwind's "media" strategy */

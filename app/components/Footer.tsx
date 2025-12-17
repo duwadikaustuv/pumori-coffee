@@ -46,8 +46,8 @@ export default function Footer() {
 
   const logoSrc =
     mounted && resolvedTheme === "dark"
-      ? "/pumori-logo.png"
-      : "/pumori-logo.png";
+      ? "/pumori.png"
+      : "/pumori.png";
 
   return (
     <motion.footer
@@ -66,7 +66,7 @@ export default function Footer() {
       <div className="absolute left-0 right-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-olive/30 to-transparent" />
 
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-8 lg:grid-cols-2">
           {/* Brand Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -77,21 +77,10 @@ export default function Footer() {
           >
             <div className="flex items-center">
               <Link href="#home" className="inline-block flex-shrink-0">
-                <div className="relative h-20 w-48">
-                  {mounted ? (
-                    <Image
-                      src={logoSrc}
-                      alt="Pumori Coffee"
-                      fill
-                      className="object-contain object-left"
-                    />
-                  ) : (
-                    <div className="h-full w-full" />
-                  )}
-                </div>
+                
               </Link>
               {/* Mountain Icon */}
-              <div className="relative h-20 w-48 opacity-80 -ml-18">
+              <div className="relative h-28 w-68 opacity-80 ml-7">
                 <Image
                   src="/pumori-mountainss.png"
                   alt="Himalayan mountains"
@@ -100,7 +89,7 @@ export default function Footer() {
                 />
               </div>
             </div>
-            <p className="max-w-xs font-sans text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
+            <p className="max-w-sm font-sans text-sm leading-relaxed text-neutral-600 dark:text-neutral-400">
               Premium specialty coffee from the misty highlands of Nepal.
               Rooted in nature, brewed with soul.
             </p>
@@ -127,33 +116,7 @@ export default function Footer() {
             </div>
           </motion.div>
 
-          {/* Quick Links */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="lg:mx-auto"
-          >
-            <h3 className="mb-4 font-display text-sm font-medium uppercase tracking-wider text-neutral-900 dark:text-neutral-100">
-              Quick Links
-            </h3>
-            <nav aria-label="Footer navigation">
-              <ul className="space-y-3">
-                {footerLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="font-sans text-sm text-neutral-600 transition-colors hover:text-brand-olive dark:text-neutral-400 dark:hover:text-brand-olive-light"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          </motion.div>
-
+          
           {/* Connect Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -180,6 +143,9 @@ export default function Footer() {
               ))}
             </div>
             <div className="mt-6 space-y-2">
+              <p className="font-sans text-sm font-bold text-neutral-600 dark:text-neutral-400">
+                  Pumori International Pvt. Ltd.
+              </p>
               <p className="font-sans text-sm text-neutral-600 dark:text-neutral-400">
                 <a
                   href="mailto:info@pumoricoffee.com"

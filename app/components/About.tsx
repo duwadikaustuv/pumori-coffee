@@ -58,7 +58,7 @@ export default function About() {
               >
                 <div className="text-center">
                   <p className="font-display text-3xl font-bold text-brand-olive dark:text-brand-olive-light">
-                    200+
+                    100+
                   </p>
                   <p className="font-sans text-xs font-medium uppercase tracking-wider text-neutral-600 dark:text-neutral-400">
                     Ropani
@@ -82,9 +82,9 @@ export default function About() {
             </p>
 
             {/* Heading */}
-            <h2 className="mb-6 font-display text-3xl font-medium leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
+            <h2 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl" style={{ fontFamily: 'var(--font-noto-sans)' }}>
               Where Mountains Meet{" "}
-              <span className="italic text-brand-brown dark:text-brand-brown-light">
+              <span className="text-brand-brown dark:text-brand-brown-light">
                 Mastery
               </span>
             </h2>
@@ -142,9 +142,9 @@ export default function About() {
             </p>
 
             {/* Heading */}
-            <h2 className="mb-6 font-display text-3xl font-medium leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl">
+            <h2 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:text-5xl" style={{ fontFamily: 'var(--font-noto-sans)' }}>
               From Seed to{" "}
-              <span className="italic text-brand-brown dark:text-brand-brown-light">
+              <span className="text-brand-brown dark:text-brand-brown-light">
                 Sip
               </span>
             </h2>
